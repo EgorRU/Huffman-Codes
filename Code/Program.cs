@@ -134,6 +134,7 @@
 
                 //на узлы, который были были сложены, накладываем ссылку на их нового потомка и ставим новые значения 0 и 1
                 int index = CountSum;
+                index--;
                 foreach (Node node in Nodes)
                 {
                     node.NextNode = NewNode;
